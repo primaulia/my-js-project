@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Playground - JavaScript 101</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.7/css/select2.min.css" rel="stylesheet" />
+</head>
+
+<body>
+
+  <div class="container">
+    <!-- PLUGIN DAY -->
+
+    <!-- SELECT2 -->
+    <h2 class="text-center">Select 2</h2>
+    <div class="text-center my-3">
+      <select class="select2" name="country">
+        <option value="AL">Alabama</option>
+        <option value="WY">Wyoming</option>
+        <option value="WA">Washington</option>
+        <option value="AZ">Arizona</option>
+        <option value="CA">California</option>
+        <option value="OK">Oklahoma</option>
+      </select>
+    </div>
+
+    <!-- MARKDOWN.JS -->
+    <h2 class="text-center">Markdown JS</h2>
+    <textarea class="form-control" id="editor" rows="4"></textarea>
+    <div id="preview"></div>
+
+
+
+    <h2 class="text-center">My Movie Search!</h1>
+    <!-- create a form -->
+
+    <form id="search-movies" class="form-inline my-3">
+      <input id="keyword" type="text" class="form-control ml-auto mr-2" placeholder="Find movies">
+      <input type="submit" class="btn btn-primary mr-auto ml-2" value="Search">
+    </form>
+
+    <div class="cards">
+
+    </div>
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
